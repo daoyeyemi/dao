@@ -5,12 +5,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
-
+import Navbar from "./components/NavBar";
 import Particles from "react-particles-js";
 
 function App() {
   return (
     <div>
+      <Navbar />
         <Particles style={{
                     position: "fixed",
                     top: 0,
