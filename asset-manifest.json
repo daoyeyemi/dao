@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dao/static/css/main.436c4c04.chunk.css",
-    "main.js": "/dao/static/js/main.50b06920.chunk.js",
-    "main.js.map": "/dao/static/js/main.50b06920.chunk.js.map",
+    "main.css": "/dao/static/css/main.8b07ab88.chunk.css",
+    "main.js": "/dao/static/js/main.edadcea8.chunk.js",
+    "main.js.map": "/dao/static/js/main.edadcea8.chunk.js.map",
     "runtime-main.js": "/dao/static/js/runtime-main.e0a86d3a.js",
     "runtime-main.js.map": "/dao/static/js/runtime-main.e0a86d3a.js.map",
-    "static/js/2.d84d2765.chunk.js": "/dao/static/js/2.d84d2765.chunk.js",
-    "static/js/2.d84d2765.chunk.js.map": "/dao/static/js/2.d84d2765.chunk.js.map",
+    "static/js/2.d526ec2c.chunk.js": "/dao/static/js/2.d526ec2c.chunk.js",
+    "static/js/2.d526ec2c.chunk.js.map": "/dao/static/js/2.d526ec2c.chunk.js.map",
     "static/js/3.4c839b0a.chunk.js": "/dao/static/js/3.4c839b0a.chunk.js",
     "static/js/3.4c839b0a.chunk.js.map": "/dao/static/js/3.4c839b0a.chunk.js.map",
     "index.html": "/dao/index.html",
-    "static/css/main.436c4c04.chunk.css.map": "/dao/static/css/main.436c4c04.chunk.css.map",
-    "static/js/2.d84d2765.chunk.js.LICENSE.txt": "/dao/static/js/2.d84d2765.chunk.js.LICENSE.txt",
+    "static/css/main.8b07ab88.chunk.css.map": "/dao/static/css/main.8b07ab88.chunk.css.map",
+    "static/js/2.d526ec2c.chunk.js.LICENSE.txt": "/dao/static/js/2.d526ec2c.chunk.js.LICENSE.txt",
     "static/media/style.css": "/dao/static/media/black&gray.7a007cf7.jpeg",
     "static/media/letuschat.c06ad2db.png": "/dao/static/media/letuschat.c06ad2db.png",
     "static/media/southparkdavid.af283c04.png": "/dao/static/media/southparkdavid.af283c04.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e0a86d3a.js",
-    "static/js/2.d84d2765.chunk.js",
-    "static/css/main.436c4c04.chunk.css",
-    "static/js/main.50b06920.chunk.js"
+    "static/js/2.d526ec2c.chunk.js",
+    "static/css/main.8b07ab88.chunk.css",
+    "static/js/main.edadcea8.chunk.js"
   ]
 }
