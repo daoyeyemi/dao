@@ -1,0 +1,13 @@
+.nav {
+    background-image: url("black&gray.jpeg");
+    opacity: 90%; 
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+}

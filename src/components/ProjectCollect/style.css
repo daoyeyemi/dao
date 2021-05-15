@@ -1,0 +1,20 @@
+h1 {
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+}
+
+.card-deck {
+    margin: 20px 40px 0px 40px;
+}
+
+#footer {
+    margin: auto;
+    text-align: center;
+}
+
+#img1, #img2 {
+    height: 30px;
+    width: 30px;
+    margin: 40px 20px;
+}

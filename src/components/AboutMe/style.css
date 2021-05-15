@@ -1,0 +1,43 @@
+#mainBox {
+    background-color: white;
+    opacity: 90%;
+    /* border-radius: 10%; */
+    margin: auto;
+    height: 515px;
+    width: 700px;
+    padding-top: 5px;
+}
+
+#image {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: thick;
+    border-color: rgb(32, 7, 7);
+    display: block;
+    z-index: 13;
+}
+
+#bio {
+    display: block;
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 30px;
+    margin: 10px 50px 0px 50px;
+    padding-top: 3px;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'PT Mono', monospace;
+}
+
+.bigDaddy {
+    font-family: 'PT Mono', monospace;
+    font-size: 80px;
+    margin-top: 15px;
+    margin-left: 50px;
+    color: white;
+}
