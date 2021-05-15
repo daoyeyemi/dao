@@ -1,6 +1,7 @@
 .nav {
     background-image: url("black&gray.jpeg");
     opacity: 90%; 
+    z-index: 100 !important;
 }
 
 .nav-link {
