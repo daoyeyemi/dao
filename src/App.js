@@ -5,13 +5,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
-import Body from "./components/Body";
+
 import Particles from "react-particles-js";
 
 function App() {
   return (
     <div>
-      <Particles style = {{
+      <Particles style={{
                     position: "fixed",
                     top: 0,
                     left: 0,
@@ -22,19 +22,19 @@ function App() {
             params={{
               "particles": {
                 "number": {
-                  "value": 380,
+                  "value": 170,
                   "density": {
                     "enable": true,
                     "value_area": 800
                   }
                 },
                 "color": {
-                  "value": "#000000"
+                  "value": "#ffffff"
                 },
                 "shape": {
                   "type": "circle",
                   "stroke": {
-                    "width": 0,
+                    "width": 1,
                     "color": "ffffff"
                   },
                   "polygon": {
@@ -47,7 +47,7 @@ function App() {
                   }
                 },
                 "opacity": {
-                  "value": 0.5,
+                  "value": 0.8,
                   "random": false,
                   "anim": {
                     "enable": false,
@@ -57,11 +57,11 @@ function App() {
                   }
                 },
                 "size": {
-                  "value": 3,
+                  "value": 2,
                   "random": true,
                   "anim": {
                     "enable": false,
-                    "speed": 40,
+                    "speed": 10,
                     "size_min": 0.1,
                     "sync": false
                   }
@@ -71,7 +71,7 @@ function App() {
                   "distance": 50,
                   "color": "#ffffff",
                   "opacity": 0.4,
-                  "width": 1
+                  "width": 4
                 },
                 "move": {
                   "enable": true,
