@@ -1,7 +1,8 @@
 h1 {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: monospace;
     color: white;
+    font-size: 80px;
 }
 
 .card-deck {
