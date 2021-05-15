@@ -11,7 +11,7 @@ import Particles from "react-particles-js";
 function App() {
   return (
     <div>
-      <Particles style={{
+        <Particles style={{
                     position: "fixed",
                     top: 0,
                     left: 0,
@@ -129,27 +129,28 @@ function App() {
               },
               "retina_detect": true
             }} />
-      <Router>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} /> 
-        <Route path="/contact" component={Contact} />
-        <Route path="/project" component={Project} />
-        <Route path="/github" component={() => {
-            window.location.href = "https://github.com/daoyeyemi";
-          }} />
-        <Route exact path="/linkedin" component={() => {
-            window.location.href = "https://linkedin.com/in/david-oyeyemi-035689103";
-          }} />
-        <Route exact path="/trek" component={() => {
-            window.location.href = "https://rbraun04.github.io/Trek/";        
-          }} />
-        <Route exact path="/tinderforrestaurants" component={() => {
-            window.location.href = "https://vast-lowlands-43566.herokuapp.com/"
-          }} />
-        <Route exact path="/letuschat" component={() => {
-            window.location.href = "https://chat-engine-react.vercel.app";     
-          }} />
-    </Router>
+      
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} /> 
+          <Route path="/contact" component={Contact} />
+          <Route path="/project" component={Project} />
+          <Route path="/github" component={() => {
+              window.location.href = "https://github.com/daoyeyemi";
+            }} />
+          <Route exact path="/linkedin" component={() => {
+              window.location.href = "https://linkedin.com/in/david-oyeyemi-035689103";
+            }} />
+          <Route exact path="/trek" component={() => {
+              window.location.href = "https://rbraun04.github.io/Trek/";        
+            }} />
+          <Route exact path="/tinderforrestaurants" component={() => {
+              window.location.href = "https://vast-lowlands-43566.herokuapp.com/"
+            }} />
+          <Route exact path="/letuschat" component={() => {
+              window.location.href = "https://chat-engine-react.vercel.app";     
+            }} />
+          </Switch>
     </div>
     
   );

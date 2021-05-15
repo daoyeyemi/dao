@@ -41,3 +41,16 @@ h1 {
     margin-left: 50px;
     color: white;
 }
+
+#img1:hover, #img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+#img1, #img2 {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
+}

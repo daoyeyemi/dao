@@ -10,4 +10,10 @@
 
 a:hover {
     color: yellow;
+    font-size: 18.75px;
+}
+
+a {
+    transition-delay: 0.3s;
+    transition-duration: 0.5s;
 }
