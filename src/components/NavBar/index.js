@@ -7,23 +7,28 @@ function NavBar() {
         <ul className="nav nav-fill">
             <li className="nav-item">
                 <Link className="nav-link b david" to="/">
-                    David Oyeyemi</Link>
+                    David Oyeyemi
+                </Link>
             </li>
             <li className="nav-item b">
                 <Link className="nav-link" to="/">
-                    Home</Link>
+                    Home
+                </Link>
             </li>
             <li className="nav-item b">
                 <Link className="nav-link" to="/about">
-                    About Me</Link>
+                    About Me
+                </Link>
             </li>
             <li className="nav-item b">
                 <Link className="nav-link" to="/project">
-                    Projects</Link>
+                    Projects
+                </Link>
             </li>
             <li className="nav-item contact">
                 <Link className="nav-link" to="/contact">
-                    Contact</Link>
+                    Contact
+                </Link>
             </li>
         </ul>
     );

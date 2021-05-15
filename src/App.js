@@ -11,7 +11,6 @@ import Particles from "react-particles-js";
 function App() {
   return (
     <div>
-      <Navbar />
         <Particles style={{
                     position: "fixed",
                     top: 0,
