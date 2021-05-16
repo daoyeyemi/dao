@@ -3,10 +3,11 @@ import NavBar from "../components/NavBar";
 import Body from "../components/Body";
 import ProjectCollect from "../components/ProjectCollect";
 import "./styles.css";
+import { motion } from "framer-motion";
 
 function Project() {
     return (
-          <div className="project">
+          <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="project">
             <div style={{
                 position: "absolute",
                 top: 0,
@@ -27,7 +28,7 @@ function Project() {
             }}>
               <ProjectCollect />
             </div>
-          </div>
+          </motion.div>
     )
 }
 

@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Project from "./pages/Project";
 import Navbar from "./components/NavBar";
 import Particles from "react-particles-js";
+import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
   return (
@@ -129,7 +130,7 @@ function App() {
               },
               "retina_detect": true
             }} />
-      
+      <AnimatePresence>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} /> 
@@ -150,7 +151,9 @@ function App() {
           <Route exact path="/letuschat" component={() => {
               window.location.href = "https://chat-engine-react.vercel.app";     
             }} />
-          </Switch>
+        </Switch>
+      </AnimatePresence>
+        
     </div>
     
   );

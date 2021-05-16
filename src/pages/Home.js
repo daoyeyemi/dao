@@ -3,10 +3,23 @@ import Main from "../components/Main";
 import NavBar from "../components/NavBar";
 import Body from "../components/Body";
 import "./styles.css";
+import { motion } from "framer-motion";
 
 function Home() {
+
+    // const upAndDown = {
+    //   in: {
+    //     opacity: 1,
+    //     x: 0
+    //   },
+    //   out: {
+    //     opacity: 0,
+    //     y: "-100vw"
+    //   }
+    // }
+
     return (
-      <div className="home">
+      <motion.div initial="0" animate="1" exit="0" className="home">
         <div style={{
               position: "absolute",
               top: 0,
@@ -26,7 +39,7 @@ function Home() {
             }}>
           <Main /> 
         </div> 
-      </div>
+      </motion.div>
     )
 }
 

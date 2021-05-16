@@ -3,10 +3,11 @@ import NavBar from "../components/NavBar";
 import Body from "../components/Body";
 import AboutMe from "../components/AboutMe";
 import "./styles.css";
+import { motion } from "framer-motion";
 
 function About() {
     return (
-        <div className="about">
+        <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="about">
           <div
             style={{
               position: "absolute",
@@ -29,7 +30,7 @@ function About() {
           }}>
             <AboutMe />
         </div>
-        </div>
+        </motion.div>
     )
 }
 

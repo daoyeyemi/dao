@@ -4,10 +4,11 @@ import Body from "../components/Body";
 // import ContactForm from "../components/ContactForm";
 import Form from "../components/ContactForm/Form";
 import "./styles.css";
+import { motion } from "framer-motion";
 
 function Contact() {
     return (
-    <div className="Contact">
+    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="Contact">
         <div style={{
             position: "absolute",
             top: 0,
@@ -31,7 +32,7 @@ function Contact() {
         >
             <Form />
         </div>
-    </div>
+    </motion.div>
     )
 }
 
