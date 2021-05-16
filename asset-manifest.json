@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dao/static/css/main.79b223db.chunk.css",
-    "main.js": "/dao/static/js/main.38b7086d.chunk.js",
-    "main.js.map": "/dao/static/js/main.38b7086d.chunk.js.map",
+    "main.css": "/dao/static/css/main.69861245.chunk.css",
+    "main.js": "/dao/static/js/main.3aee1b30.chunk.js",
+    "main.js.map": "/dao/static/js/main.3aee1b30.chunk.js.map",
     "runtime-main.js": "/dao/static/js/runtime-main.e0a86d3a.js",
     "runtime-main.js.map": "/dao/static/js/runtime-main.e0a86d3a.js.map",
     "static/js/2.675360ad.chunk.js": "/dao/static/js/2.675360ad.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.4c839b0a.chunk.js": "/dao/static/js/3.4c839b0a.chunk.js",
     "static/js/3.4c839b0a.chunk.js.map": "/dao/static/js/3.4c839b0a.chunk.js.map",
     "index.html": "/dao/index.html",
-    "static/css/main.79b223db.chunk.css.map": "/dao/static/css/main.79b223db.chunk.css.map",
+    "static/css/main.69861245.chunk.css.map": "/dao/static/css/main.69861245.chunk.css.map",
     "static/js/2.675360ad.chunk.js.LICENSE.txt": "/dao/static/js/2.675360ad.chunk.js.LICENSE.txt",
     "static/media/style.css": "/dao/static/media/black&gray.7a007cf7.jpeg",
     "static/media/letuschat.c06ad2db.png": "/dao/static/media/letuschat.c06ad2db.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e0a86d3a.js",
     "static/js/2.675360ad.chunk.js",
-    "static/css/main.79b223db.chunk.css",
-    "static/js/main.38b7086d.chunk.js"
+    "static/css/main.69861245.chunk.css",
+    "static/js/main.3aee1b30.chunk.js"
   ]
 }
