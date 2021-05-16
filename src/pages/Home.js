@@ -7,19 +7,8 @@ import { motion } from "framer-motion";
 
 function Home() {
 
-    // const upAndDown = {
-    //   in: {
-    //     opacity: 1,
-    //     x: 0
-    //   },
-    //   out: {
-    //     opacity: 0,
-    //     y: "-100vw"
-    //   }
-    // }
-
     return (
-      <motion.div initial="0" animate="1" exit="0" className="home">
+      <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="home">
         <div style={{
               position: "absolute",
               top: 0,
