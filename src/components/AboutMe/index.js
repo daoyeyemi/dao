@@ -17,7 +17,7 @@ function AboutMe() {
                     <div className="col-md-8">
                             <p className="bigDaddy">David Oyeyemi</p>
                             <p id="bio">
-                                I'm a full-stack software developer based 
+                                I'm a full-stack software developer with background in Physics and Political Science based 
                                 in Carson, California. I'm all about improving, learning, & challenging myself.
                                 Let's work together.
                             </p>
