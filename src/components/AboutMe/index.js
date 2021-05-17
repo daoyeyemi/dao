@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import logo from "./southparkdavid.png";
+import logo from "./IMG_8153.JPG";
 import logo1 from "./github.png";
 import logo2 from "./linkedin.png";
 import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ function AboutMe() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <img width="270px" height="270px" id="image" src={logo} alt="..."></img>
+                        <img width="300px" height="350px" id="image" src={logo} alt="..."></img>
                     </div>
                     <div className="col-md-8">
                             <p className="bigDaddy">David Oyeyemi</p>

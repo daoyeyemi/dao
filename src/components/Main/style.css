@@ -18,10 +18,13 @@
 }
 
 #drunklee {
-    border-radius: 50%;
-    width: 400px;
+    border-radius: 15%;
+    border: 6px solid white;
+    width: 500px;
+    height: 370px;
     margin: 60px 0px 50px 0px;
     z-index: 1000;
+
 }
 
 .iconCaption:hover {

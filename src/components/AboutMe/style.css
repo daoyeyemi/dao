@@ -12,8 +12,10 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    border: thick;
-    border-color: rgb(32, 7, 7);
+    border: 5px solid;
+    /* border-color: white; */
+    border-radius: 10%;
+    border-color: white;
     display: block;
     z-index: 13;
 }
