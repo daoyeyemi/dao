@@ -12,12 +12,12 @@ function AboutMe() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <img width="300px" height="350px" id="image" src={logo} alt="..."></img>
+                        <img width="300px" height="350px" id="image" src={logo} alt="..." />
                     </div>
                     <div className="col-md-8">
                             <p className="bigDaddy">David Oyeyemi</p>
                             <p id="bio">
-                                I'm a full-stack software developer with background in Physics and Political Science based 
+                                I'm a full-stack software developer with background in physics and political science based 
                                 in Carson, California. I'm all about improving, learning, & challenging myself.
                                 Let's work together.
                             </p>

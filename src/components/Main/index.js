@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Main() {
     return (
         <div id="main">
-            <img id="drunklee" src={logo} alt="..."></img>
+            <img className="drunklee" id="drunklee" src={logo} alt="..." /> 
             <p>The David Oyeyemi Portfolio</p>
             <div className="container">
                 <div className="row">

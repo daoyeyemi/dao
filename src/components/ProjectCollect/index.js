@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import screenshot1 from "../ProjectCollect/trek.png";
 import screenshot2 from "../ProjectCollect/tinderforrestaurants.png";
 import screenshot3 from "../ProjectCollect/letuschat.png";
+import screenshot4 from "../ProjectCollect/letuschat2.1.png";
 
 function ProjectCollect() {
     return (
@@ -40,8 +41,18 @@ function ProjectCollect() {
                     </Link>
                     <div className="card-body">
                         <h5 className="card-title">Let Us Chat</h5>
-                        <p className="card-text">LetUsChat is an interactive and social chat application meant to connect a network of coders and non coders alike Come check it out.</p>
+                        <p className="card-text">LetUsChat is an interactive and social chat application meant to connect a network of coders and non coders alike.</p>
                         <p className="card-text"><small className="text-muted">May 10, 2021</small></p>
+                    </div>
+                </div>
+                <div className="card">
+                    <Link to="letuschat2.0">
+                        <img src={screenshot4} className="card-img-top" alt="..."/>
+                    </Link>
+                    <div className="card-body">
+                        <h5 className="card-title">Let Us Chat 2.0</h5>
+                        <p className="card-text">LetUsChat 2.0 is a simple, real-time chat application meant made with the help of Socket.io, similar to Whatsapp Application used by millions.</p>
+                        <p className="card-text"><small className="text-muted">May 26, 2021</small></p>
                     </div>
                 </div>
             </div>

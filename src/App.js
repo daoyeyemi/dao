@@ -76,7 +76,7 @@ function App() {
                 },
                 "move": {
                   "enable": true,
-                  "speed": 3,
+                  "speed": 1,
                   "direction": "none",
                   "random": false,
                   "straight": false,
@@ -114,7 +114,7 @@ function App() {
                     "size": 40,
                     "duration": 2,
                     "opacity": 8,
-                    "speed": 3
+                    "speed": 1
                   },
                   "repulse": {
                     "distance": 200,
@@ -151,6 +151,9 @@ function App() {
           <Route exact path="/letuschat" component={() => {
               window.location.href = "https://chat-engine-react.vercel.app";     
             }} />
+          <Route exact path="/letuschat2.0" component={() => {
+            window.location.href = "https://let-us-chat.vercel.app";     
+          }} />
         </Switch>
       </AnimatePresence>
         
