@@ -151,9 +151,6 @@ function App() {
           <Route exact path="/letuschat" component={() => {
               window.location.href = "https://chat-engine-react.vercel.app";     
             }} />
-          <Route exact path="/letuschat2.0" component={() => {
-            window.location.href = "https://let-us-chat.vercel.app";     
-          }} />
         </Switch>
       </AnimatePresence>
         

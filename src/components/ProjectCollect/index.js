@@ -45,16 +45,6 @@ function ProjectCollect() {
                         <p className="card-text"><small className="text-muted">May 10, 2021</small></p>
                     </div>
                 </div>
-                <div className="card">
-                    <Link to="letuschat2.0">
-                        <img src={screenshot4} className="card-img-top" alt="..."/>
-                    </Link>
-                    <div className="card-body">
-                        <h5 className="card-title">Let Us Chat 2.0</h5>
-                        <p className="card-text">LetUsChat 2.0 is a simple, real-time chat application meant made with the help of Socket.io, similar to Whatsapp Application used by millions.</p>
-                        <p className="card-text"><small className="text-muted">May 26, 2021</small></p>
-                    </div>
-                </div>
             </div>
             <div id="footer">
                 <Link to="github"><img id="img1" src={logo1} alt="..."></img></Link>
