@@ -149,7 +149,7 @@ function App() {
               window.location.href = "https://vast-lowlands-43566.herokuapp.com/"
             }} />
           <Route exact path="/letuschat" component={() => {
-              window.location.href = "https://chat-engine-react.vercel.app";     
+              window.location.href = "https://eager-ardinghelli-3b7e8f.netlify.app/";     
             }} />
         </Switch>
       </AnimatePresence>
