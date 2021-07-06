@@ -5,8 +5,7 @@ import logo2 from "../Main/linkedin.png";
 import { Link } from "react-router-dom";
 import screenshot1 from "../ProjectCollect/trek.png";
 import screenshot2 from "../ProjectCollect/tinderforrestaurants.png";
-import screenshot3 from "../ProjectCollect/letuschat.png";
-import screenshot4 from "../ProjectCollect/letuschat2.1.png";
+import screenshot3 from "../ProjectCollect/letuschat2.2.png";
 
 function ProjectCollect() {
     return (
