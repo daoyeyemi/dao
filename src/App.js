@@ -136,21 +136,6 @@ function App() {
           <Route path="/about" component={About} /> 
           <Route path="/contact" component={Contact} />
           <Route path="/project" component={Project} />
-          <Route path="/github" component={() => {
-              window.location.href = "https://github.com/daoyeyemi";
-            }} />
-          <Route exact path="/linkedin" component={() => {
-              window.location.href = "https://linkedin.com/in/david-oyeyemi-035689103";
-            }} />
-          <Route exact path="/trek" component={() => {
-              window.location.href = "https://rbraun04.github.io/Trek/";        
-            }} />
-          <Route exact path="/tinderforrestaurants" component={() => {
-              window.location.href = "https://vast-lowlands-43566.herokuapp.com/"
-            }} />
-          <Route exact path="/letuschat" component={() => {
-              window.location.href = "https://eager-ardinghelli-3b7e8f.netlify.app/";     
-            }} />
         </Switch>
       </AnimatePresence>
         

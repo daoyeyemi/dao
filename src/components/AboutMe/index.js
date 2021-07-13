@@ -25,8 +25,8 @@ function AboutMe() {
                 </div>
             </div>
                 <div id="footer">
-                    <Link to="github"><img id="img1" src={logo1} alt="..."></img></Link>
-                    <Link to="linkedin"><img id="img2" src={logo2} alt="..."></img></Link>    
+                    <a href={"https://github.com/daoyeyemi"}><img id="img1" src={logo1} alt="..."></img></a>
+                    <a href={"https://linkedin.com/in/david-oyeyemi-035689103"}><img id="img2" src={logo2} alt="..."></img></a>   
                 </div>
             </div>
     )
