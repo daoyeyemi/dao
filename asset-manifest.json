@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dao/static/css/main.751ca6f7.chunk.css",
-    "main.js": "/dao/static/js/main.95708232.chunk.js",
-    "main.js.map": "/dao/static/js/main.95708232.chunk.js.map",
+    "main.js": "/dao/static/js/main.2305effd.chunk.js",
+    "main.js.map": "/dao/static/js/main.2305effd.chunk.js.map",
     "runtime-main.js": "/dao/static/js/runtime-main.6100eae5.js",
     "runtime-main.js.map": "/dao/static/js/runtime-main.6100eae5.js.map",
     "static/js/2.f5af72d3.chunk.js": "/dao/static/js/2.f5af72d3.chunk.js",
@@ -19,6 +19,8 @@
     "static/media/letuschat2.2.4e2e40e1.png": "/dao/static/media/letuschat2.2.4e2e40e1.png",
     "static/media/mocklalibela.cdea7a59.png": "/dao/static/media/mocklalibela.cdea7a59.png",
     "static/media/mockrealestate.cd835e76.png": "/dao/static/media/mockrealestate.cd835e76.png",
+    "static/media/nbadataproject.cf1e0886.png": "/dao/static/media/nbadataproject.cf1e0886.png",
+    "static/media/oyedaEcom.aec4b8d6.png": "/dao/static/media/oyedaEcom.aec4b8d6.png",
     "static/media/tinderforrestaurants.0ee37103.png": "/dao/static/media/tinderforrestaurants.0ee37103.png",
     "static/media/trek.dbd50be7.png": "/dao/static/media/trek.dbd50be7.png"
   },
@@ -26,6 +28,6 @@
     "static/js/runtime-main.6100eae5.js",
     "static/js/2.f5af72d3.chunk.js",
     "static/css/main.751ca6f7.chunk.css",
-    "static/js/main.95708232.chunk.js"
+    "static/js/main.2305effd.chunk.js"
   ]
 }
