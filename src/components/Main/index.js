@@ -1,9 +1,10 @@
+import "../Main/style.css";
+
+import { Link } from "react-router-dom";
 import React from "react";
 import logo from "../Main/IMG_8144.JPG";
-import "../Main/style.css";
 import logo1 from "../Main/github.png";
 import logo2 from "../Main/linkedin.png";
-import { Link } from "react-router-dom";
 
 function Main() {
     return (
@@ -38,8 +39,8 @@ function Main() {
                     </div> 
                 </div>
                 <div id="footer">
-                    <a href={"https://github.com/daoyeyemi"}><img id="img1" src={logo1} alt="..."></img></a>
-                    <a href={"https://linkedin.com/in/david-oyeyemi-035689103"}><img id="img2" src={logo2} alt="..."></img></a>   
+                    <a href={"https://github.com/daoyeyemi"} target={"_blank"}><img id="img1" src={logo1} alt="..."></img></a>
+                    <a href={"https://linkedin.com/in/david-oyeyemi-035689103"} target={"_blank"}><img id="img2" src={logo2} alt="..."></img></a>   
                 </div>
             </div>
         </div>

@@ -1,9 +1,11 @@
-import React, { useState } from "react";
 import "./style.css";
+
+import React, { useState } from "react";
+
+import { Link } from "react-router-dom";
 import logo from "./IMG_8153.JPG";
 import logo1 from "./github.png";
 import logo2 from "./linkedin.png";
-import { Link } from "react-router-dom";
 
 function AboutMe() {
     return (
@@ -25,8 +27,8 @@ function AboutMe() {
                 </div>
             </div>
                 <div id="footer">
-                    <a href={"https://github.com/daoyeyemi"}><img id="img1" src={logo1} alt="..."></img></a>
-                    <a href={"https://linkedin.com/in/david-oyeyemi-035689103"}><img id="img2" src={logo2} alt="..."></img></a>   
+                    <a href={"https://github.com/daoyeyemi"} target={"_blank"}><img id="img1" src={logo1} alt="..."></img></a>
+                    <a href={"https://linkedin.com/in/david-oyeyemi-035689103"} target={"_blank"}><img id="img2" src={logo2} alt="..."></img></a>   
                 </div>
             </div>
     )
